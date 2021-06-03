@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCode</title>
+    <style type="text/css">
+        textarea {
+            width: 99%;
+            height: 300px;
+        }
+        svg {
+            border: 1px solid #F00;
+        }
+        path {
+            stroke: #F00;
+            stroke-width:1px;;
+        }
+        #extrude {
+            stroke: #F00;
+            stroke-width: 0.4px;
+        }
+        #move {
+            stroke: #55F;
+            stroke-width: 1px;
+            stroke-dasharray: 2px;
+        }
+    </style>
+    <script src="gcode.js" defer></script>
+</head>
+<body>
+    <div><a id="download" href="" download="gcode.gco">Download</a></div>
+    <textarea>xxx</textarea> 
+    <svg width="600" height="600" viewbox="0,0,200,200" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 10 10 L 20 20 Z" id="extrude" fill="none" />
+        <path d="M 20 10 L 10 20 Z" id="move" fill="none" />
+    </svg>
+</body>
+</html>

@@ -1,0 +1,42 @@
+$nx = 9;
+$ny = 9;
+$dx = 15;
+$dy = 15;
+$s = 10;
+$f = "Bahnschrift"; // Font
+
+$offs = 0.1;
+//$offs = 0;
+
+$mdx = $dx - 2;
+$mdy = $dy - 2;
+
+$chars = "FÜNFZEHNGNACHJVORKHALBMEINSZWEIPDREIVIERQFÜNFELFXSECHSYSIEBENDEACHTUNEUNZEHNZWÖLF";
+
+/*
+
+9*9
+
+FÜNFZEHN
+NACH VOR 
+HALB EINS
+ZWEI DREI
+VIER FÜNF
+ELF SECHS
+ SIEBEN  
+ACHT NEUN
+ZEHNZWÖLF
+
+Fehlt: GJKMPQXY
+
+8*8
+
+FÜNFZEHN
+NACH*VOR 
+HALBVIER
+EINSECHS 
+SIEZWÖLF
+BENDREIÜ
+*ZEHNEUN
+ACHT*ELF
+*/
